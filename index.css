@@ -1,0 +1,175 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    color: #0d47a1;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Event Info Section */
+.event-info {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.event-info table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+}
+
+.event-info th,
+.event-info td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.event-info tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* Form Container */
+.form-container {
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    background-color: #e3f2fd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #0d47a1;
+    outline: none;
+}
+
+/* Radio & Checkbox spacing */
+.radio-group,
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.radio-group input,
+.checkbox-group input {
+    margin-right: 5px;
+}
+
+/* Declaration */
+.declaration {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #0d47a1;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1565c0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Participants Table */
+.participants {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.participants table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.participants th {
+    background-color: #0d47a1;
+    color: white;
+    padding: 10px;
+}
+
+.participants td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.participants tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.participants tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* Footer */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 40px;
+}
