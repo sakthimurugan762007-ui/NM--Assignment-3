@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Web Development Workshop 2026</h1>
+        <p class="description">
+            Join us for an exciting hands-on workshop on modern web development.
+            Learn HTML, CSS, and JavaScript from industry experts.
+        </p>
+    </header>
+
+    <!-- Event Information Section -->
+    <section class="event-info">
+        <h2>Event Information</h2>
+        <table>
+            <tr>
+                <th>Date</th>
+                <td>March 20, 2026</td>
+            </tr>
+            <tr>
+                <th>Time</th>
+                <td>10:00 AM - 4:00 PM</td>
+            </tr>
+            <tr>
+                <th>Venue</th>
+                <td>ABC College Auditorium</td>
+            </tr>
+            <tr>
+                <th>Organizer</th>
+                <td>Department of Computer Science</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="form-container">
+        <h2>Register Now</h2>
+        <form id="registrationForm">
+
+            <fieldset>
+                <legend>Personal Details</legend>
+
+                <label>Full Name:</label>
+                <input type="text" required>
+
+                <label>Email:</label>
+                <input type="email" required>
+
+                <label>Phone:</label>
+                <input type="tel" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Workshop Preferences</legend>
+
+                <label>Experience Level:</label>
+                <select>
+                    <option>Beginner</option>
+                    <option>Intermediate</option>
+                    <option>Advanced</option>
+                </select>
+
+                <label>Session Type:</label>
+                <div class="radio-group">
+                    <input type="radio" name="session"> Morning
+                    <input type="radio" name="session"> Afternoon
+                </div>
+
+                <label>Topics Interested:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox"> HTML
+                    <input type="checkbox"> CSS
+                    <input type="checkbox"> JavaScript
+                </div>
+
+                <label>Upload Resume:</label>
+                <input type="file">
+
+                <label>Additional Comments:</label>
+                <textarea rows="4"></textarea>
+            </fieldset>
+
+            <div class="declaration">
+                <input type="checkbox" required>
+                I agree to the terms and conditions.
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Participants Table -->
+    <section class="participants">
+        <h2>Registered Participants</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rahul Sharma</td>
+                    <td>rahul@email.com</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Anita Verma</td>
+                    <td>anita@email.com</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>David Kumar</td>
+                    <td>david@email.com</td>
+                    <td>Advanced</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: support@abccollege.com | Help Desk: +91 9876543210</p>
+        <p>&copy; 2026 ABC College. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
